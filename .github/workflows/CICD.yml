@@ -28,7 +28,7 @@ jobs:
     - name: installing surge
       run: npm install --global surge
     - name: deploying surge
-      run: surge ./ prototype_assignment.surge.sh --token{{secrets.SURGE_TOKEN}}
+      run: surge ./FreelancingBootcamp2020 prototype_assignment.surge.sh --token{{secrets.SURGE_TOKEN}}
 
     
      
